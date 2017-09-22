@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script><link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
         
+        <!-- Test suite -->
+        <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -26,14 +28,15 @@
         <![endif]-->        
         
         <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron" id="quote-box">
             <h1 class="display-3">Random Quote Generator</h1>
             <p class="lead">Click the button below to generate a random quote.</p>
             <hr class="my-4">
            <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
-           <p class="quote-display">Click the button to view a random quote.</p> 
+           <h3 class="display-4" id="text">Quote placeholder</h3> 
+           <h5 class="display-5" id="author">Author placeholder</h3>
            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button" id="btn-generate">Generate Quote</a>
+              <a class="btn btn-primary btn-lg" href="#" role="button" id="new-quote">Generate Quote</a>
             </p>
           </div>
 
